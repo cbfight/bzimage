@@ -4,7 +4,7 @@
 
 full focuses (MIP) and merges (fast no-correction concatenation) 4-color images from the Keyence BZ-700 series microscope
 
-[example data (~4.5GB)](https://hu-my.sharepoint.com/personal/wesley_wong_fas_harvard_edu/_layouts/15/onedrive.aspx?originalPath=aHR0cHM6Ly9odS1teS5zaGFyZXBvaW50LmNvbS86ZjovZy9wZXJzb25hbC93ZXNsZXlfd29uZ19mYXNfaGFydmFyZF9lZHUvRW4tLUlUcVM1LUpLanJaYms1RHNiUHdCUFhCQTBVdW94UlNnX203YmpvYTc2dz9ydGltZT1aeVF6Mkp5ODJFZw&id=%2Fpersonal%2Fwesley%5Fwong%5Ffas%5Fharvard%5Fedu%2FDocuments%2FBZIMAGE%2FTEST%20IMAGES)
+[example data (~4.5GB)](https://hu-my.sharepoint.com/personal/wesley_wong_fas_harvard_edu/_layouts/15/onedrive.aspx?originalPath=aHR0cHM6Ly9odS1teS5zaGFyZXBvaW50LmNvbS86ZjovZy9wZXJzb25hbC93ZXNsZXlfd29uZ19mYXNfaGFydmFyZF9lZHUvRW4tLUlUcVM1LUpLanJaYms1RHNiUHdCUFhCQTBVdW94UlNnX203YmpvYTc2dz9ydGltZT1aeVF6Mkp5ODJFZw&id=%2Fpersonal%2Fwesley%5Fwong%5Ffas%5Fharvard%5Fedu%2FDocuments%2FBZIMAGE%2FTEST%20IMAGES){:target="_blank"}
 
 
 written under python 3.7.7 using anaconda- see requires.txt for packages needed.
