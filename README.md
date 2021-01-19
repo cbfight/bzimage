@@ -15,3 +15,8 @@ this script generates a fast full focus merged image in about 10-30 seconds and 
 
 
 note that the official software performs maximum contrast stacking while this script performs maximum intensity stacking. the output is a little more hazy but this is an accepted technique for simplifying z-stacks to 2d.
+
+
+1-19-21 TODO:
+-expose runtime options like manual grid size and tile overlap amount
+-corrective planar transformations and keypoint/RANSAC based tile merging (as a run option, like --highquality)
