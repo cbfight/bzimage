@@ -1,0 +1,185 @@
+ ~/single-field-zstack copy merge/b/pyinstaller frozen v3/M/d/bzimage3  on master !4 ?15  ./bzimage3 "/Users/wesleywong/EXAMPLE/"
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Written by Wesley Wong @ Hsu Lab, Harvard, Department of Stem Cell & Regenerative Biology 1/18/2021
+           after getting very frustrated with all the clicking and waiting from the actual software.
+
+This script takes a folder of images and accompanying .bcf file by the BZ-700 microscope made by Keyence
+and returns a        Full Focused (FF) by Maximum Intensity Projection image, stitching together all the tiles
+ if thereare tiles present
+
+ The tiled images produced by this script are simple edge to edge concatenations without any
+planar corrections.        This tool should be used to quickly stitch and assess images for more precise processing if worthwhile.
+            The output FF images can be used by Photoshop, FIJI, etc to stitch better final fusions.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+sample file names of the images to be stitched:
+['20X_LATE_JLV_TOP_00007_Z053_CH2.tif',
+ '20X_LATE_JLV_TOP_00010_Z025_CH4.tif',
+ '20X_LATE_JLV_TOP_00014_Z042_CH1.tif',
+ '20X_LATE_JLV_TOP_00004_Z025_CH2.tif',
+ '20X_LATE_JLV_TOP_00013_Z053_CH4.tif']
+unique tiles found for stitching:
+['00001',
+ '00002',
+ '00003',
+ '00004',
+ '00005',
+ '00006',
+ '00007',
+ '00008',
+ '00009',
+ '00010',
+ '00011',
+ '00012',
+ '00013',
+ '00014',
+ '00015']
+image series root name: 20X_LATE_JLV_TOP_
+tile 00001: worklist completion is 328/4920 items
+'processing block... # blocks per tile: 164 (30 images max per block)'
+tile 00002: worklist completion is 656/4920 items
+'processing block... # blocks per tile: 164 (30 images max per block)'
+tile 00003: worklist completion is 984/4920 items
+'processing block... # blocks per tile: 164 (30 images max per block)'
+tile 00004: worklist completion is 1312/4920 items
+'processing block... # blocks per tile: 164 (30 images max per block)'
+tile 00005: worklist completion is 1640/4920 items
+'processing block... # blocks per tile: 164 (30 images max per block)'
+tile 00006: worklist completion is 1968/4920 items
+'processing block... # blocks per tile: 164 (30 images max per block)'
+tile 00007: worklist completion is 2296/4920 items
+'processing block... # blocks per tile: 164 (30 images max per block)'
+tile 00008: worklist completion is 2624/4920 items
+'processing block... # blocks per tile: 164 (30 images max per block)'
+tile 00009: worklist completion is 2952/4920 items
+'processing block... # blocks per tile: 164 (30 images max per block)'
+tile 00010: worklist completion is 3280/4920 items
+'processing block... # blocks per tile: 164 (30 images max per block)'
+tile 00011: worklist completion is 3608/4920 items
+'processing block... # blocks per tile: 164 (30 images max per block)'
+tile 00012: worklist completion is 3936/4920 items
+'processing block... # blocks per tile: 164 (30 images max per block)'
+tile 00013: worklist completion is 4264/4920 items
+'processing block... # blocks per tile: 164 (30 images max per block)'
+tile 00014: worklist completion is 4592/4920 items
+'processing block... # blocks per tile: 164 (30 images max per block)'
+tile 00015: worklist completion is 4920/4920 items
+'processing block... # blocks per tile: 164 (30 images max per block)'
+tiled image job done
+sample of finished max intensity projections for each tile position:
+['/Users/wesleywong/single-field-zstack copy '
+ 'merge/20X_CD451_CC3_3X5_STD/20210119-015144_FF_20X_LATE_JLV_TOP_00001_RGB.tif',
+ '/Users/wesleywong/single-field-zstack copy '
+ 'merge/20X_CD451_CC3_3X5_STD/20210119-015144_FF_20X_LATE_JLV_TOP_00002_RGB.tif']
+['/Users/wesleywong/single-field-zstack copy '
+ 'merge/20X_CD451_CC3_3X5_STD/20210119-015144_FF_20X_LATE_JLV_TOP_00001_W.tif',
+ '/Users/wesleywong/single-field-zstack copy '
+ 'merge/20X_CD451_CC3_3X5_STD/20210119-015144_FF_20X_LATE_JLV_TOP_00002_W.tif']
+microscope objective: 20x
+imaging tile rows: 5
+imaging tile cols: 3
+**********
+starting column fusion
+**********
+grid dimensions are 5 rows by 3 columns
+
+column fusion: L-R rows are [0, 6, 12]
+column fusion: R-L rows are [3, 9]
+column fusion: L-R left
+column fusion: L-R mid
+column fusion: L-R right
+running column fusion: L-R rows
+[(720, 813, 3), (720, 666, 3), (720, 813, 3)]
+column fusion: L-R left
+column fusion: L-R mid
+column fusion: L-R right
+running column fusion: L-R rows
+[(720, 813, 3), (720, 666, 3), (720, 813, 3)]
+column fusion: L-R left
+column fusion: L-R mid
+column fusion: L-R right
+running column fusion: L-R rows
+[(720, 813, 3), (720, 666, 3), (720, 813, 3)]
+column fusion: R-L right
+column fusion: R-L mid
+column fusion: R-L left
+running column fusion: R-L rows
+[(720, 813, 3), (720, 666, 3), (720, 813, 3)]
+column fusion has 4/5 items
+column fusion: R-L right
+column fusion: R-L mid
+column fusion: R-L left
+running column fusion: R-L rows
+[(720, 813, 3), (720, 666, 3), (720, 813, 3)]
+column fusion has 5/5 items
+
+**********
+starting row fusion
+**********
+grid dimensions are 5 rows by 3 columns
+
+cf is 0
+row fusion: top
+cf is 1
+row fusion: mid
+cf is 2
+row fusion: mid
+cf is 3
+row fusion: mid
+cf is 4
+row fusion: bottom
+row fusion has 5/5 items
+running row fusion
+**********
+starting column fusion
+**********
+grid dimensions are 5 rows by 3 columns
+
+column fusion: L-R rows are [0, 6, 12]
+column fusion: R-L rows are [3, 9]
+column fusion: L-R left
+column fusion: L-R mid
+column fusion: L-R right
+running column fusion: L-R rows
+[(720, 813, 3), (720, 666, 3), (720, 813, 3)]
+column fusion: L-R left
+column fusion: L-R mid
+column fusion: L-R right
+running column fusion: L-R rows
+[(720, 813, 3), (720, 666, 3), (720, 813, 3)]
+column fusion: L-R left
+column fusion: L-R mid
+column fusion: L-R right
+running column fusion: L-R rows
+[(720, 813, 3), (720, 666, 3), (720, 813, 3)]
+column fusion: R-L right
+column fusion: R-L mid
+column fusion: R-L left
+running column fusion: R-L rows
+[(720, 813, 3), (720, 666, 3), (720, 813, 3)]
+column fusion has 4/5 items
+column fusion: R-L right
+column fusion: R-L mid
+column fusion: R-L left
+running column fusion: R-L rows
+[(720, 813, 3), (720, 666, 3), (720, 813, 3)]
+column fusion has 5/5 items
+
+**********
+starting row fusion
+**********
+grid dimensions are 5 rows by 3 columns
+
+cf is 0
+row fusion: top
+cf is 1
+row fusion: mid
+cf is 2
+row fusion: mid
+cf is 3
+row fusion: mid
+cf is 4
+row fusion: bottom
+row fusion has 5/5 items
+running row fusion
+took 9 seconds
