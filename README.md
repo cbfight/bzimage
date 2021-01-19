@@ -25,6 +25,9 @@ note that the official software performs maximum contrast stacking while this sc
 -expose runtime options like manual grid size and tile overlap amount
 
 
+-maximum contrast projection as an option (or default if it's fast)
+
+
 -corrective planar transformations and keypoint/RANSAC based tile merging (as a run option, like --highquality)
 
 
