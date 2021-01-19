@@ -19,8 +19,12 @@ note that the official software performs maximum contrast stacking while this sc
 
 1-19-21 TODO:
 
+--I have a working command line + automator app Mac bundle of the script made with pyinstaller, but building the bundle for Windows produces a .exe that only works when run from the anaconda prompt, not the regular command line. It would be nice to get this fixed and implement a batch script to simplify the usage.
+
 
 -expose runtime options like manual grid size and tile overlap amount
 
 
 -corrective planar transformations and keypoint/RANSAC based tile merging (as a run option, like --highquality)
+
+
