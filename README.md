@@ -4,7 +4,7 @@
 
 full focuses (MIP) and merges (fast no-correction concatenation) 4-color images from the Keyence BZ-700 series microscope
 
-[example data (~4.5GB)](https://hu-my.sharepoint.com/personal/wesley_wong_fas_harvard_edu/_layouts/15/onedrive.aspx?originalPath=aHR0cHM6Ly9odS1teS5zaGFyZXBvaW50LmNvbS86ZjovZy9wZXJzb25hbC93ZXNsZXlfd29uZ19mYXNfaGFydmFyZF9lZHUvRW4tLUlUcVM1LUpLanJaYms1RHNiUHdCUFhCQTBVdW94UlNnX203YmpvYTc2dz9ydGltZT1aeVF6Mkp5ODJFZw&id=%2Fpersonal%2Fwesley%5Fwong%5Ffas%5Fharvard%5Fedu%2FDocuments%2FBZIMAGE%2FTEST%20IMAGES)
+[example data (~300MB)](https://hu-my.sharepoint.com/:u:/g/personal/wesley_wong_fas_harvard_edu/EXhaOkXjy45ItkoJyrVsXbAB_x7vQusD6TKXUH4tSYJ-OA?e=d2sa1t)
 
 
 [stand alone bundles for MacOS and Windows 10](https://hu-my.sharepoint.com/:f:/g/personal/wesley_wong_fas_harvard_edu/EsEbDkv3j9RFjH1KcD27DrsBCfJR8t2FHYGr-AMQw2-Njg?e=hmxVCf)
