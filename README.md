@@ -39,4 +39,4 @@ note that the official software performs maximum contrast stacking while this sc
 
 -corrective planar transformations and keypoint/RANSAC based tile merging (as a run option, like --highquality)
 
-
+--use tifffile imread/imwrite instead of cv2 for quality
