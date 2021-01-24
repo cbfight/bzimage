@@ -33,6 +33,7 @@ this script supports maximum intensity projections (default) or maximum contrast
 -expose runtime options like manual grid size and tile overlap amount
 
 
+-fix halos around bright objects in maximum contrast mode that occur after guassian blur
 
 
 -corrective planar transformations and keypoint/RANSAC based tile merging (as a run option, like --highquality)
