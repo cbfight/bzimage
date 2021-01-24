@@ -22,8 +22,7 @@ the main advantage of this script is that for a typical tiled and z-stacked imag
 
 this script generates a fast full focus merged image in about 10-30 seconds and also outputs full focused individual tile images that can be stitched in photoshop or FIJI (see example output) to achieve similar results.
 
-
-note that the official software performs maximum contrast stacking while this script performs maximum intensity stacking. the output is a little more hazy but this is an accepted technique for simplifying z-stacks to 2d.
+this script supports maximum intensity projections (default) or maximum contrast projections (using "--contrast"), adopted from an R package authored by user DragonDuck here: https://github.com/DragonDuck/MaxContrastProjection
 
 
 1-24-21 TODO:
