@@ -26,7 +26,7 @@ this script generates a fast full focus merged image in about 10-30 seconds and 
 note that the official software performs maximum contrast stacking while this script performs maximum intensity stacking. the output is a little more hazy but this is an accepted technique for simplifying z-stacks to 2d.
 
 
-1-19-21 TODO:
+1-24-21 TODO:
 
 --I have a working command line + automator app Mac bundle of the script made with pyinstaller, but building the bundle for Windows produces a .exe that only works when run from the anaconda prompt, not the regular command line. It would be nice to get this fixed and implement a batch script to simplify the usage.
 
