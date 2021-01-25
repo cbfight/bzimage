@@ -1,6 +1,6 @@
 # bzimage
-
-![Example Output of worst case scenario: uneven lighting across each field](example%20output%20github/example.jpg)
+*Various example output of a worst case scenario: uneven lighting across each field*
+![Example Output](example%20output%20github/example.jpg)
 
 full focuses (MIP) and merges (fast no-correction concatenation) 4-color images from the Keyence BZ-700 series microscope
 
